@@ -19,7 +19,7 @@ public class RobotRegistration {
     }
 
     public void listRobots() {
-        robots.forEach(robot -> System.out.println(robot.getTechnicalDescription()));
+        robots.forEach(robot -> System.out.println(robot.getTechnicalDescription()  + " | Registered: " + robot.getRegistrationDate()));
     }
 
     public List<Robot> filterByMaxSpeed(int maxSpeed) {

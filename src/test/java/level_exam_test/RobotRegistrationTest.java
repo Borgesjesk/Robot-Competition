@@ -3,12 +3,18 @@ package level_exam_test;
 import level_exam.domain.*;
 import level_exam.service.RobotRegistration;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
 
 import java.time.LocalDate;
 import java.time.Year;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.MethodOrderer;
+import org.junit.jupiter.api.TestMethodOrder;
+
+@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 
 class RobotRegistrationTest {
 
@@ -26,6 +32,7 @@ class RobotRegistrationTest {
     }
 
     @Test
+    @Order(1)
     void listOfRobotsWithTechnicalDescription() {
 
         System.out.println(" === List of Robots === ");
@@ -33,16 +40,19 @@ class RobotRegistrationTest {
     }
 
     @Test
+    @Order(2)
     void filterByManufacture() {
 
         System.out.println(" === List of Robots by Manufacturer === ");
         robot.filterByManufacturer("TESLA").forEach(r -> System.out.println(r.getName() + " | " + r.getManufacturer()));
+        robot.filterByManufacturer("Agibot").forEach(r -> System.out.println(r.getName() + " | " + r.getManufacturer()));
+        robot.filterByManufacturer("BlueRobotics").forEach(r -> System.out.println(r.getName() + " | " + r.getManufacturer()));
 
         assertEquals(2, robot.filterByManufacturer("TESLA").size());
     }
 
-
     @Test
+    @Order(3)
     void filterByMaxSpeed() {
 
         System.out.println(" === List of Robots Max Speed above 50 km/h === ");
