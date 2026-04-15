@@ -41,14 +41,17 @@ src/
 
 ```bash
 === List of Robots ===
-Optimus manufactured by TESLA in 2026, uses TRACK traction and reaches up to 60km/h.
-A2 flies up to 200m for 120 minutes. Manufactured in 2025 by Agibot.
-BlueROV2 reaches a depth of 150m with JET propulsion. Manufactured by BlueRobotics in 2024.
+Optimus, manufactured by TESLA in  2026, uses TRACK traction and reaches up to 60km/h.
+T71, manufactured by TESLA in  2026, uses WHEEL traction and reaches up to 55km/h.
+A2 flies up to 200 m for 120 minutes. Manufactured in 2025 by Agibot.
+B4 flies up to 200 m for 20 minutes. Manufactured in 2026 by Agibot.
+BlueROVE2 reaches a depth of 150 m with JET propulsion. Manufactured by BlueRobotics in 2024.
 
 === Resilience Test Reports ===
 Optimus: TRACK traction confirmed. Fit for competition.
-A2: Flight autonomy minimum 60 minutes confirmed. Fit for competition.
-T71: WHEEL traction. Does not meet requirements.
+T71: No TRACK traction confirmed. Does not meet requirements.
+A2: flight autonomy of 120 minutes. Fit for competition.
+B4: flight autonomy of 20 minutes. Does not meet requirements.
 ```
 
 ---
@@ -82,6 +85,7 @@ src/
 
 | Test | Description |
 |------|-------------|
+| `listOfRobotsWithTechnicalDescription()` | List all registered Robots with Technical Description |
 | `filterByMaxSpeed()` | Asserts only robots with speed > threshold are returned |
 | `filterByTypeAndFuel()` | Asserts filtering by class type and fuel returns correct results |
 

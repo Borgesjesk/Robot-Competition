@@ -26,7 +26,7 @@ class RobotRegistrationTest {
     }
 
     @Test
-    void ListOfRobotsWithTechnicalDescription() {
+    void listOfRobotsWithTechnicalDescription() {
 
         System.out.println(" === List of Robots === ");
         robot.listRobots();
