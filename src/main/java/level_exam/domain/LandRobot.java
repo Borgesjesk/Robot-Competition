@@ -30,7 +30,7 @@ public class LandRobot extends Robot implements ResistanceEvaluable {
 
     @Override
     public String getTechnicalDescription() {
-        return getName() + ", manufactured by " + getManufacturer() + " in  " + getManufacturingYear() + ", uses " + getTraction() + " traction and reaches up to " + getMaxSpeed() + "km/h.";
+        return getName() + ", manufactured by " + getManufacturer() + " in " + getManufacturingYear() + ", uses " + getTraction() + " traction and reaches up to " + getMaxSpeed() + "km/h.";
     }
 }
 

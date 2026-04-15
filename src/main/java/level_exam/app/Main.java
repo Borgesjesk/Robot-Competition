@@ -7,8 +7,6 @@ import level_exam.service.RobotRegistration;
 import java.time.LocalDate;
 import java.time.Year;
 
-import static java.util.Locale.filter;
-
 public class Main {
     public static void main(String[] args) {
 
