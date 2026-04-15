@@ -19,7 +19,7 @@ public class Main {
         robot.addRobot(new WaterRobot("BlueROVE2", "BlueRobotics", Year.of(2024), LocalDate.now(), 150, PropulsionType.JET));
 
 
-        System.out.println(" === List of Robots === ");
+        System.out.println(" === List of Registered Robots === ");
         robot.listRobots();
 
         System.out.println(" === List of Land Robots with Speed greater than 50km/hr === ");
