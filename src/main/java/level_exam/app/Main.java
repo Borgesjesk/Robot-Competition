@@ -22,7 +22,6 @@ public class Main {
 
 
         System.out.println(" === List of Robots === ");
-
         robot.listRobots();
 
         System.out.println(" === List of Land Robots with Speed greater than 50km/hr === ");
