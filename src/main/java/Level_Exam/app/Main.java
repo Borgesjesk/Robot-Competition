@@ -16,10 +16,11 @@ public class Main {
         RobotRegistration robot = new RobotRegistration();
 
         robot.addRobot(new LandRobot("Optimus", "TESLA", Year.of(2026), LocalDate.now(), 60, TractionType.TRACK));
-        robot.addRobot(new AirRobot("A2", "Agibot", Year.of(2025), LocalDate.now(), 200, 120));
-        robot.addRobot(new WaterRobot("BlueROV2", "BlueRobotics", Year.of(2024), LocalDate.now(), 150, PropulsionType.JET));
         robot.addRobot(new LandRobot("T71", "TESLA", Year.of(2026), LocalDate.now(), 55, TractionType.WHEEL));
+        robot.addRobot(new AirRobot("A2", "Agibot", Year.of(2025), LocalDate.now(), 200, 120));
         robot.addRobot(new AirRobot("B4", "Agibot", Year.of(2026), LocalDate.now(), 200, 20));
+        robot.addRobot(new WaterRobot("BlueROVE2", "BlueRobotics", Year.of(2024), LocalDate.now(), 150, PropulsionType.JET));
+
 
         System.out.println(" === List of Robots === ");
 
