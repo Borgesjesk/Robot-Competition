@@ -23,7 +23,7 @@ class RobotRegistrationTest {
         robot.addRobot(new WaterRobot("BlueROVE2", "BlueRobotics", Year.of(2024), LocalDate.now(), 150, PropulsionType.JET));
 
         System.out.println(" === List of Robots Max Speed above 50 km/h === ");
-        robot.filterByMaxSpeed(50).forEach(r ->System.out.println(r.getName() + " | " + r.getManufacturer()));
+        robot.filterByMaxSpeed(50).forEach(r -> System.out.println(r.getName() + " | " + r.getManufacturer()));
 
         assertEquals(1, robot.filterByMaxSpeed(50).size());
     }
