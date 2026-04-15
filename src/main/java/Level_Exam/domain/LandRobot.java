@@ -25,7 +25,7 @@ public class LandRobot extends Robot implements ResistanceEvaluable {
         if (traction.equals(TractionType.TRACK)) {
             return getName() + ": TRACK traction confirmed. Fit for competition.";
         }
-        return getName() + ": WHEEL confirmed. Does not meet requirements.";
+        return getName() + ": No TRACK traction confirmed. Does not meet requirements.";
     }
 
     @Override
