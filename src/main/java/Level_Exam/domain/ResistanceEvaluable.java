@@ -1,4 +1,5 @@
 package Level_Exam.domain;
 
-public interface ResistenceEvaluable {
+public interface ResistanceEvaluable {
+    String getResistanceReport();
 }

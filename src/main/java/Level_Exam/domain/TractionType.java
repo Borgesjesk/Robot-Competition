@@ -1,4 +1,5 @@
 package Level_Exam.domain;
 
-public class TractionType {
+public enum TractionType {
+    TRACK, WHEEL;
 }
