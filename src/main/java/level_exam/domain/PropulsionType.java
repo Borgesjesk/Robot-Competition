@@ -1,4 +1,4 @@
-package Level_Exam.domain;
+package level_exam.domain;
 
 public enum PropulsionType {
     PROPELLER, JET;

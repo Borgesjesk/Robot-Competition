@@ -1,8 +1,8 @@
-package Level_Exam.service;
+package level_exam.service;
 
-import Level_Exam.domain.LandRobot;
-import Level_Exam.domain.ResistanceEvaluable;
-import Level_Exam.domain.Robot;
+import level_exam.domain.LandRobot;
+import level_exam.domain.ResistanceEvaluable;
+import level_exam.domain.Robot;
 
 import java.util.ArrayList;
 import java.util.List;

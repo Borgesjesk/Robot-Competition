@@ -1,7 +1,7 @@
-package Level_Exam_Test;
+package level_exam_test;
 
-import Level_Exam.domain.*;
-import Level_Exam.service.RobotRegistration;
+import level_exam.domain.*;
+import level_exam.service.RobotRegistration;
 import org.junit.jupiter.api.Test;
 
 import java.time.LocalDate;

@@ -1,6 +1,6 @@
-package Level_Exam.report;
+package level_exam.report;
 
-import Level_Exam.domain.ResistanceEvaluable;
+import level_exam.domain.ResistanceEvaluable;
 
 import java.util.List;
 

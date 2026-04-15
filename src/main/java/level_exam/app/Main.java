@@ -1,12 +1,11 @@
-package Level_Exam.app;
+package level_exam.app;
 
-import Level_Exam.domain.*;
-import Level_Exam.report.ResistanceReportPrinter;
-import Level_Exam.service.RobotRegistration;
+import level_exam.domain.*;
+import level_exam.report.ResistanceReportPrinter;
+import level_exam.service.RobotRegistration;
 
 import java.time.LocalDate;
 import java.time.Year;
-import java.util.List;
 
 import static java.util.Locale.filter;
 
