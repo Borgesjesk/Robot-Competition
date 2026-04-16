@@ -49,6 +49,8 @@ class RobotRegistrationTest {
         robot.filterByManufacturer("BlueRobotics").forEach(r -> System.out.println(r.getName() + " | " + r.getManufacturer()));
 
         assertEquals(2, robot.filterByManufacturer("TESLA").size());
+        assertEquals(2, robot.filterByManufacturer("Agibot").size());
+        assertEquals(1, robot.filterByManufacturer("BlueRobotics").size());
     }
 
     @Test
